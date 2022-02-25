@@ -4,17 +4,17 @@ This repository contains the design of 2-input nor gate using pMOS and nMOS and 
 
 1. [Reference circuit details](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-details)</br>
 2. [Reference circuit diagram](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-digram)</br>
-3. [Reference circuit waveform]()</br>
-4. [Truth table]()</br>
-5. [Tools used]()</br>
-6. [Simulation IN Synopsys]()</br>
-   -  [Schematic Diagram Of NOR Gate]()</br>
-   - [Symbol of NOR Gate]()</br>
-   - [Output Waveform]()</br>
-   - [Netlist]()</br>
-7. [Conclusion]()</br>
-8. [Acknowledgement]()</br>
-9. [References]()</br>
+3. [Reference circuit waveform](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-waveform)</br>
+4. [Truth table](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#truth-table)</br>
+5. [Tools used](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#tools-used)</br>
+6. [Simulation In Synopsys](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#simulation-in-synopsys)</br>
+   -  [Schematic Diagram Of NOR Gate](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#schematic-diagram-of-nor-gate)</br>
+   - [Symbol of NOR Gate](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#symbol-of-nor-gate)</br>
+   - [Output Waveform](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#output-waveform)</br>
+   - [Netlist](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#netlist)</br>
+7. [Conclusion](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#conclusion)</br>
+8. [Acknowledgement](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#acknowledgement)</br>
+9. [References](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#references)</br>
 # REFERENCE CIRCUIT DETAILS
 
 To design a 2-input CMOS, two pMOS are connected in series and two
