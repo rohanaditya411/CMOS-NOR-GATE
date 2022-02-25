@@ -2,7 +2,7 @@
 This repository contains the design of 2-input nor gate using pMOS and nMOS and implemented using synopsys custom complier on 28nm cmos technology.
 # TABLE OF CONTENT
 
-1. [Reference circuit details](REFERENCE CIRCUIT DETAILS)</br>
+1. [Reference circuit details](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-details)</br>
 2. Reference circuit diagram</br>
 3. Reference circuit waveform</br>
 4. Truth table</br>
