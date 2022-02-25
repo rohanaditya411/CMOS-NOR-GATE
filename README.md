@@ -67,38 +67,38 @@ proves the truth table of NOR gate.</br>
 ![139 59 246 100 - Google Chrome 24-02-2022 23_08_44 (2)](https://user-images.githubusercontent.com/100359672/155649757-5d131e44-5566-404e-9a41-a2b3e4b188ef.png)
 
 ## NETLIST
-*Custom Compiler Version S-2021.09
-*Fri Feb 25 03:46:21 2022
+*Custom Compiler Version S-2021.09</br>
+*Fri Feb 25 03:46:21 2022</br>
 
-*.SCALE METER
-*.LDD
-.GLOBAL gnd!
-********************************************************************************
-* Library          : cm_lib1
-* Cell             : nor_gate
-* View             : schematic
-* View Search List : auCdl schematic
-* View Stop List   : auCdl
-********************************************************************************
-.subckt nor_gate Va Vb Vin Vout gnd
-*.PININFO Va:I Vb:I Vin:O Vout:O gnd:O
-MM1 Vout Vb net5 Vin p105 w=0.1u l=0.03u nf=1 m=1
-MM0 net5 Va Vin Vin p105 w=0.1u l=0.03u nf=1 m=1
-MM3 Vout Vb gnd gnd n105 w=0.1u l=0.03u nf=1 m=1
-MM2 Vout Va gnd gnd n105 w=0.1u l=0.03u nf=1 m=1
-.ends nor_gate
+*.SCALE METER</br>
+*.LDD</br>
+.GLOBAL gnd!</br>
+********************************************************************************</br>
+* Library          : cm_lib1</br>
+* Cell             : nor_gate</br>
+* View             : schematic</br>
+* View Search List : auCdl schematic</br>
+* View Stop List   : auCdl</br>
+********************************************************************************</br>
+.subckt nor_gate Va Vb Vin Vout gnd</br>
+*.PININFO Va:I Vb:I Vin:O Vout:O gnd:O</br>
+MM1 Vout Vb net5 Vin p105 w=0.1u l=0.03u nf=1 m=1</br>
+MM0 net5 Va Vin Vin p105 w=0.1u l=0.03u nf=1 m=1</br>
+MM3 Vout Vb gnd gnd n105 w=0.1u l=0.03u nf=1 m=1</br>
+MM2 Vout Va gnd gnd n105 w=0.1u l=0.03u nf=1 m=1</br>
+.ends nor_gate</br>
 
-********************************************************************************
-* Library          : cm_lib1
-* Cell             : cmos_nor
-* View             : schematic
-* View Search List : auCdl schematic
-* View Stop List   : auCdl
-********************************************************************************
-.subckt cmos_nor Voutput
-*.PININFO Voutput:O
-XI0 net10 net12 net14 Voutput gnd! nor_gate
-.ends cmos_nor
+********************************************************************************</br>
+* Library          : cm_lib1</br>
+* Cell             : cmos_nor</br>
+* View             : schematic</br>
+* View Search List : auCdl schematic</br>
+* View Stop List   : auCdl</br>
+********************************************************************************</br>
+.subckt cmos_nor Voutput</br>
+*.PININFO Voutput:O</br>
+XI0 net10 net12 net14 Voutput gnd! nor_gate</br>
+.ends cmos_nor</br>
 
 
 
