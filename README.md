@@ -70,7 +70,7 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 ![139 59 246 100 - Google Chrome 24-02-2022 23_08_44 (2)](https://user-images.githubusercontent.com/100359672/155649757-5d131e44-5566-404e-9a41-a2b3e4b188ef.png)
 
 ## NETLIST
-For netlist of circuit click here:- ![NETLIST]([NETLIST.txt](https://github.com/rohanaditya411/CMOS-NOR-GATE/files/8138763/NETLIST.txt))
+For netlist of circuit click here:- [NETLIST.txt](https://github.com/rohanaditya411/CMOS-NOR-GATE/files/8138781/NETLIST.txt)
 
 ## CONCLUSION
 We have designed and implemented the 2-input nor gate using synopsys custom complier on 28nm cmos technology and we observed that when both the input is zero then only output is one.
