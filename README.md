@@ -50,9 +50,12 @@ proves the truth table of NOR gate.</br>
 ![rohan pdf - Adobe Acrobat Pro DC (32-bit) 24-02-2022 20_05_18 (2)](https://user-images.githubusercontent.com/100359672/155544981-ee5535a9-67af-4a46-a8d5-287a546da467.png)
 
 # TOOLS USED
-1. Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.</br>
-2. Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.</br>
-3. Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.</br>
+## 1. Synopsys Custom Compiler:  
+The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.</br>
+## 2. Synopsys Primewave: 
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.</br>
+## 3. Synopsys 28nm PDK:  
+The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.</br>
 
 # SIMULATION IN SYNOPSYS
 
