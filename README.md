@@ -70,7 +70,38 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 ![139 59 246 100 - Google Chrome 24-02-2022 23_08_44 (2)](https://user-images.githubusercontent.com/100359672/155649757-5d131e44-5566-404e-9a41-a2b3e4b188ef.png)
 
 ## NETLIST
-For netlist of circuit click here:- [NETLIST](https://textdoc.co/BoiZtDzquxFRXb0s)
+For netlist of circuit click here:- [NETLIST](*Custom Compiler Version S-2021.09</br>
+*Fri Feb 25 03:46:21 2022</br>
+
+*.SCALE METER</br>
+*.LDD</br>
+.GLOBAL gnd!</br>
+********************************************************************************</br>
+* Library          : cm_lib1</br>
+* Cell             : nor_gate</br>
+* View             : schematic</br>
+* View Search List : auCdl schematic</br>
+* View Stop List   : auCdl</br>
+********************************************************************************</br>
+.subckt nor_gate Va Vb Vin Vout gnd</br>
+*.PININFO Va:I Vb:I Vin:O Vout:O gnd:O</br>
+MM1 Vout Vb net5 Vin p105 w=0.1u l=0.03u nf=1 m=1</br>
+MM0 net5 Va Vin Vin p105 w=0.1u l=0.03u nf=1 m=1</br>
+MM3 Vout Vb gnd gnd n105 w=0.1u l=0.03u nf=1 m=1</br>
+MM2 Vout Va gnd gnd n105 w=0.1u l=0.03u nf=1 m=1</br>
+.ends nor_gate</br>
+
+********************************************************************************</br>
+* Library          : cm_lib1</br>
+* Cell             : cmos_nor</br>
+* View             : schematic</br>
+* View Search List : auCdl schematic</br>
+* View Stop List   : auCdl</br>
+********************************************************************************</br>
+.subckt cmos_nor Voutput</br>
+*.PININFO Voutput:O</br>
+XI0 net10 net12 net14 Voutput gnd! nor_gate</br>
+.ends cmos_nor</br>)
 
 ## CONCLUSION
 We have designed and implemented the 2-input nor gate using synopsys custom complier on 28nm cmos technology and we observed that when both the input is zero then only output is one.
