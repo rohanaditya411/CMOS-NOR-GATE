@@ -12,9 +12,9 @@ This repository contains the design of 2-input nor gate using pMOS and nMOS and 
    - Symbol of NOR Gate</br>
    - Output Waveform</br>
    - Netlist</br>
-   - Conclusion</br>
-   - Acknowledgement</br>
-   - References</br>
+7. Conclusion</br>
+8. Acknowledgement</br>
+9. References</br>
 # REFERENCE CIRCUIT DETAILS
 
 To design a 2-input CMOS, two pMOS are connected in series and two
@@ -99,6 +99,19 @@ MM2 Vout Va gnd gnd n105 w=0.1u l=0.03u nf=1 m=1</br>
 *.PININFO Voutput:O</br>
 XI0 net10 net12 net14 Voutput gnd! nor_gate</br>
 .ends cmos_nor</br>
+## CONCLUSION
+We have designed and implemented the 2-input nor gate using synopsys custom complier on 28nm cmos technology and we observed that when both the input is zero then only output is one.
+## ACKNOWLEDGEMENT
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. 
+Chinmay panda, IIT Hyderabad
+Sameer Durgoji, NIT Karnataka
+VLSI System Design(VSD) Corp. Pvt. Ltd. India 
+Synopsys Team
+## REFERENCES
+[1] CMOS Digital integrated circuits, analysis and design, by
+Sung-Mo kang/ Yusuf Leblebici
+[2] [2] https://www.allaboutcircuits.com/textbook/digital/chpt-
+3/cmos-gate-circuitry/
 
 
 
