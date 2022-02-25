@@ -3,18 +3,18 @@ This repository contains the design of 2-input nor gate using pMOS and nMOS and 
 # TABLE OF CONTENT
 
 1. [Reference circuit details](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-details)</br>
-2. Reference circuit diagram</br>
-3. Reference circuit waveform</br>
-4. Truth table</br>
-5. Tools used</br>
-6. Simulation IN Synopsys</br>
-   -  Schematic Diagram Of NOR Gate</br>
-   - Symbol of NOR Gate</br>
-   - Output Waveform</br>
-   - Netlist</br>
-7. Conclusion</br>
-8. Acknowledgement</br>
-9. References</br>
+2. [Reference circuit diagram](https://github.com/rohanaditya411/CMOS-NOR-GATE/blob/main/README.md#reference-circuit-digram)</br>
+3. [Reference circuit waveform]()</br>
+4. [Truth table]()</br>
+5. [Tools used]()</br>
+6. [Simulation IN Synopsys]()</br>
+   -  [Schematic Diagram Of NOR Gate]()</br>
+   - [Symbol of NOR Gate]()</br>
+   - [Output Waveform]()</br>
+   - [Netlist]()</br>
+7. [Conclusion]()</br>
+8. [Acknowledgement]()</br>
+9. [References]()</br>
 # REFERENCE CIRCUIT DETAILS
 
 To design a 2-input CMOS, two pMOS are connected in series and two
