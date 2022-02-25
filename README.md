@@ -109,9 +109,8 @@ VLSI System Design(VSD) Corp. Pvt. Ltd. India
 Synopsys Team
 ## REFERENCES
 [1] CMOS Digital integrated circuits, analysis and design, by
-Sung-Mo kang/ Yusuf Leblebici
-[2] [2] https://www.allaboutcircuits.com/textbook/digital/chpt-
-3/cmos-gate-circuitry/
+Sung-Mo kang/ Yusuf Leblebici</br>
+[2] https://www.allaboutcircuits.com/textbook/digital/chpt-3/cmos-gate-circuitry/
 
 
 
