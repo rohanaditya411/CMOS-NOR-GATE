@@ -2,7 +2,7 @@
 This repository contains the design of 2-input nor gate using pMOS and nMOS and implemented using synopsys custom complier on 28nm cmos technology.
 # TABLE OF CONTENT
 
-1. Reference circuit details</br>
+1. [Reference circuit details](REFERENCE CIRCUIT DETAILS)</br>
 2. Reference circuit diagram</br>
 3. Reference circuit waveform</br>
 4. Truth table</br>
@@ -102,11 +102,11 @@ XI0 net10 net12 net14 Voutput gnd! nor_gate</br>
 ## CONCLUSION
 We have designed and implemented the 2-input nor gate using synopsys custom complier on 28nm cmos technology and we observed that when both the input is zero then only output is one.
 ## ACKNOWLEDGEMENT
-Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. 
-Chinmay panda, IIT Hyderabad
-Sameer Durgoji, NIT Karnataka
-VLSI System Design(VSD) Corp. Pvt. Ltd. India 
-Synopsys Team
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. </br>
+Chinmay panda, IIT Hyderabad </br>
+Sameer Durgoji, NIT Karnataka </br>
+VLSI System Design(VSD) Corp. Pvt. Ltd. India  </br>
+Synopsys Team </br>
 ## REFERENCES
 [1] CMOS Digital integrated circuits, analysis and design, by
 Sung-Mo kang/ Yusuf Leblebici</br>
