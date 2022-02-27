@@ -70,7 +70,39 @@ The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of
 ![139 59 246 100 - Google Chrome 24-02-2022 23_08_44 (2)](https://user-images.githubusercontent.com/100359672/155649757-5d131e44-5566-404e-9a41-a2b3e4b188ef.png)
 
 ## NETLIST
-For netlist of circuit click here:- [NETLIST.txt](https://github.com/rohanaditya411/CMOS-NOR-GATE/files/8138804/NETLIST.txt)
+
+''' *Custom Compiler Version S-2021.09
+*Fri Feb 25 03:46:21 2022
+
+*.SCALE METER
+*.LDD
+.GLOBAL gnd!
+********************************************************************************</br>
+* Library          : cm_lib1
+* Cell             : nor_gate
+* View             : schematic
+* View Search List : auCdl schematic
+* View Stop List   : auCdl
+********************************************************************************</br>
+.subckt nor_gate Va Vb Vin Vout gnd
+*.PININFO Va:I Vb:I Vin:O Vout:O gnd:O
+MM1 Vout Vb net5 Vin p105 w=0.1u l=0.03u nf=1 m=1
+MM0 net5 Va Vin Vin p105 w=0.1u l=0.03u nf=1 m=1
+MM3 Vout Vb gnd gnd n105 w=0.1u l=0.03u nf=1 m=1
+MM2 Vout Va gnd gnd n105 w=0.1u l=0.03u nf=1 m=1
+.ends nor_gate</br>
+
+********************************************************************************</br>
+* Library          : cm_lib1
+* Cell             : cmos_nor
+* View             : schematic
+* View Search List : auCdl schematic
+* View Stop List   : auCdl
+********************************************************************************</br>
+.subckt cmos_nor Voutput
+*.PININFO Voutput:O
+XI0 net10 net12 net14 Voutput gnd! nor_gate
+.ends cmos_nor '''
 
 
 ## CONCLUSION
