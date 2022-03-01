@@ -76,6 +76,9 @@ for Netlist of circuit click here [NETLIST.txt](https://github.com/rohanaditya41
 
 ## CONCLUSION
 We have designed and implemented the 2-input nor gate using synopsys custom complier on 28nm cmos technology and we observed that when both the input is zero then only output is one.
+## AUTHOR
+Rohan Aditya,
+National Institute of Science and Technology, Berhampur
 ## ACKNOWLEDGEMENT
 1.Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. </br>
 2.Chinmay panda, IIT Hyderabad </br>
